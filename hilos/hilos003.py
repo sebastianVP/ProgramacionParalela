@@ -45,3 +45,6 @@ t2.start()
 #Dormir
 time.sleep(8)
 print("Finalizar Programa")
+# Los HILOS Daemon se cierran tan pronto el programa termina de ejecutarse.
+#  Esto puede  llevar una pérdida de informacion si dicho hilo
+# no habia terminada su ejecución.
